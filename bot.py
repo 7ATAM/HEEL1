@@ -10,8 +10,8 @@ downloads = './downloads/{}/'
 
 START_BUTTONS=[
     [
-        InlineKeyboardButton('السورس', url='https://github.com/STARK-LUCIFER/HEEL1'),
-        InlineKeyboardButton('قناة البوتات', url='https://t.me/xrxnr'),
+        InlineKeyboardButton('السورس', url='https://github.com/7ATAM/tiktokbot'),
+        InlineKeyboardButton('قناة المطور', url='https://t.me/just74re'),
     ],]
 
 DL_BUTTONS=[
@@ -40,7 +40,7 @@ async def run_cmd(cmd: str) -> Tuple[str, str, int, int]:
 
 @xrxnr.on_message(filters.command('start') & filters.private)
 async def _start(bot, update):
-  await update.reply_text(f"** مرحبا أنا بوت ستارك وضيفتي تحميل من التيكتوك يمكنك تحميل الفيديوهات او المقاطع الصوتية من هنا فقط ارسل رابط المقطع هنا**", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
+  await update.reply_text(f"** مرحبا أنا بوت حاتم وضيفتي تحميل من التيكتوك يمكنك تحميل الفيديوهات او المقاطع الصوتية من هنا فقط ارسل رابط المقطع هنا**", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
 
 # Downloader for tiktok
 @xrxnr.on_message(filters.regex(pattern='.*http.*') & filters.private)
