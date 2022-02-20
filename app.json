@@ -7,9 +7,9 @@
     "video",
     "tiktok"
   ],
-  "success_url": "https://T.me/xrxnr",
-  "website": "https://github.com/STARK-LUCIFER",
-  "repository": "https://github.com/STARK-LUCIFER/HEEL1",
+  "success_url": "https://T.me/Just74Re",
+  "website": "https://github.com/7ATAM",
+  "repository": "https://github.com/7ATAM/tiktokbot",
   "env": {
     "BOT_TOKEN": {
       "description": "ضع هنا توكن البوت احصل عليه من هنا  https://t.me/botfather",
